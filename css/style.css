@@ -12,6 +12,19 @@ body {
     color: #2C2B2B;
 }
 
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+
 .header {
     background-image: url("../images/header-bg.jpg");
     background-repeat: no-repeat;
