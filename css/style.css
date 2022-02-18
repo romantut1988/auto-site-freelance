@@ -264,3 +264,7 @@ a {
 .benefits__item-text {
     color: #C4C4C4;
 }
+
+.carousel {
+ display: flex;
+}
