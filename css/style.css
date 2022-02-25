@@ -501,6 +501,21 @@ a {
     }
 }
 
+@media (max-width: 650px) {
+    .footer__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .footer__social {
+        width: 100%;
+        justify-content: center;
+        margin: 25px 0;
+    }
+}
+
 @media (max-width: 600px) {
     .header__content {
         padding-top: 0;
@@ -605,10 +620,6 @@ a {
     .button--decor::after {
         display: none;
     }
-}
-
-@media (max-width: 360px) {
-
 }
 
 @media (max-width: 340px) {
